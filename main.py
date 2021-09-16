@@ -37,5 +37,5 @@ tpost.glue_trajectories(trajectories, best_parameters)
 tpost.delete_small_trajectories(trajectories, best_parameters)
 
 # Plotting trajectories
-#on_image has to be False, for privacy concerns. 
-tvis.play_all_trajectories(trajectories, best_parameters, dataset, on_image=False, lens_param=lens_param, save = False, raw_detections = raw_detections)
+#on_image has to be False, for privacy concerns.
+tvis.play_all_trajectories(trajectories, best_parameters, dataset, on_image=False, lens_param=lens_param, save = True, raw_detections = raw_detections)
